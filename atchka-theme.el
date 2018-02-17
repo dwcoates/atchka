@@ -19,7 +19,7 @@
       (padding `(:line-width 5))
       ;; colors
       (bg             "#1D1F20")
-      (bg-l           "#000000")
+      (bg-l           "#696969")
       (fg             "#D6D6D4")
       (subtle         "#aab6c7")
       (vsubtle        "#556172")
