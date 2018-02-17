@@ -19,7 +19,7 @@
       (padding `(:line-width 5))
       ;; colors
       (bg             "#1D1F20")
-      (bg-l           "#222425")
+      (bg-l           "#000000")
       (fg             "#D6D6D4")
       (subtle         "#aab6c7")
       (vsubtle        "#556172")
@@ -314,8 +314,15 @@
      ;;`(markdown-link-title-face        (:inherit link))
      ;;`(markdown-url-face               (:inherit link))
      ;; org-mode
-     )
-
+     ;; Solaire
+     (solaire-default-face  :inherit 'default :background bg-alt)
+     (solaire-hl-line-face  :inherit 'hl-line :background bg)
+     (solaire-minibuffer-face :inherit solaire-default-face)
+     (solaire-org-hide-face :foreground bg-alt))
+    ;; solaire-line-number-face
+    ;; solaire-org-hide-face
+    ;; solaire-mode-line-face
+    ;; solaire-mode-line-inactive-face
     (custom-theme-set-variables
      'atchka
      `(vc-annotate-color-map
