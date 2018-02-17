@@ -315,10 +315,10 @@
      ;;`(markdown-url-face               (:inherit link))
      ;; org-mode
      ;; Solaire
-     `(solaire-default-face    ((,c (:inherit 'default :background bg-l))))
-     `(solaire-hl-line-face    ((,c (:inherit 'hl-line :background bg))))
+     `(solaire-default-face    ((,c (:inherit 'default :background ,bg-l))))
+     `(solaire-hl-line-face    ((,c (:inherit 'hl-line :background ,bg))))
      `(solaire-minibuffer-face ((,c (:inherit solaire-default-face))))
-     `(solaire-org-hide-face   ((,c (:foreground bg-l)))))
+     `(solaire-org-hide-face   ((,c (:foreground ,bg-l)))))
     ;; solaire-line-number-face
     ;; solaire-org-hide-face
     ;; solaire-mode-line-face
